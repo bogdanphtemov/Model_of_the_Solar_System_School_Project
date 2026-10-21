@@ -1,0 +1,35 @@
+{
+  "name": "Solar System Scene",
+  "description": "Main scene with Sun and planets for the Solar System simulation",
+  "version": "1.0",
+  "camera": {
+    "position": [0, 40, -50],
+    "look_at": [0, 0, 0],
+    "fov": 60,
+    "near_plane": 0.1,
+    "far_plane": 200.0
+  },
+  "scene_settings": {
+    "background_color": [0.02, 0.02, 0.06, 1.0],
+    "exposure": 1.0,
+    "tonemapping": "ACES"
+  },
+  "lighting_preset": {
+    "sun_color": [1.0, 0.95, 0.8],
+    "sun_intensity_multiplier": 1500,
+    "ambient_color": [0.1, 0.1, 0.15],
+    "ambient_intensity": 0.05
+  },
+  "orbital_settings": {
+    "time_scale": 1.0,
+    "initial_planet_spacing": "even",
+    "max_orbit_range": 32.0
+  },
+  "performance": {
+    "enable_shadows": true,
+    "enable_post_processing": true,
+    "target_fps": 60
+  },
+  "created_by": "Solar System School Project",
+  "last_modified": "2026-10-21"
+}
