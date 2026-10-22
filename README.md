@@ -23,6 +23,21 @@ pip install ursina
 python main.py
 ```
 
+## Prerequisites
+
+- Python 3.6 or higher installed
+- pip (Python package manager)
+
+## Troubleshooting
+
+**If you get "python is not recognized":**
+- Make sure Python is installed and added to PATH
+- Try `python3` instead of `python` on some systems
+
+**If pip installation fails:**
+- Try: `pip install --user ursina`
+- On Windows: run Command Prompt as Administrator
+
 ## Controls
 
 ### Keyboard
